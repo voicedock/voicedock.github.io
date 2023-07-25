@@ -1,0 +1,27 @@
+site_name: VoiceDock
+nav:
+  - Specs: specs/index.md
+  - Apps: apps/index.md
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
