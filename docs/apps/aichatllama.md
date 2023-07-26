@@ -30,13 +30,12 @@ curl -o config/aichatllama.json https://raw.githubusercontent.com/voicedock/aich
     ```
 
 === "Docker (on GPU)"
-OpenCL, Nvidia CUDA
-    ``` c++
-    docker run --rm \
+
+    ``` bash
+    docker run --rm --gpus all \
         -v "$(pwd)/config:/data/config" \
         -v "$(pwd)/dataset:/data/dataset" \
         -e LLAMA_GPU_LAYERS=2 \
-        --runtime=nvidia --gpus all \
         -p 9999:9999 \
         ghcr.io/voicedock/aichatllama:gpu aichatllama
     ```

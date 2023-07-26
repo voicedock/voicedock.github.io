@@ -31,8 +31,8 @@ curl -o config/sttwhisper.json https://raw.githubusercontent.com/voicedock/sttwh
 
 === "Docker (on GPU)"
 
-    ``` c++
-    docker run --rm \
+    ``` bash
+    docker run --rm --gpus all \
         -v "$(pwd)/config:/data/config" \
         -v "$(pwd)/dataset:/data/dataset" \
         -p 9999:9999 \
