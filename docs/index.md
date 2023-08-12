@@ -8,7 +8,7 @@ VoiceDock solves these problems by providing a [universal API specification](spe
 and ready-to-use [applications](apps/index.md).
 
 ## An example of using VoiceDock
-TODO: Embed a video with an example of use.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y5Vtih_jKv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Ready-to-use apps
 Check out ready-to-use VoiceDock API applications that can be run on a server using docker.
